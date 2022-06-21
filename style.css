@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 30px;
+    min-height: 100vh;
+    background: rgb(28, 16, 16);
+    color: orangered;
+    display: grid;
+    place-items: center;
+}
+section{
+    background: rgba(255, 255, 255, 10%);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    font-size: 57px;
+    
+}
