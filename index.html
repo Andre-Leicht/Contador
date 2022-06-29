@@ -13,6 +13,7 @@
      <p id="resultado"></p>
      <button onclick="aumentar()">mais</button>
      <button onclick="diminuir()">menos</button>
+     <button onclick="zerar()">zerar</button>
 
   </section>
   <script>
@@ -29,6 +30,10 @@
         numero = numero + 1
         MostrarNaTela()
     }
+    function zerar() {
+        numero = 0
+        MostrarNaTela()
+    }
     // jogar o estado da aplicação na tela
     function MostrarNaTela(){
         const p = document.querySelector("#resultado")
@@ -39,4 +44,4 @@
     MostrarNaTela()
   </script> 
 </body>
-</html>
+</html
